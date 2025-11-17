@@ -6,3 +6,7 @@ poc.sh also checks if ollama is installed, and uses or downloads a specific mode
 
 poc.sh can use different models, or even pick a random model if you want. qwen2.5-coder was used for reliability testing, for the sake of having a longterm proof of concept on Github specifically.
 
+- poc-eval.sh uses an inline eval, so it is not ideal for various formats
+- poc.sh writes the received bash code to a new tmp file for clean execution
+
+
